@@ -1,0 +1,77 @@
+.todo-item {
+    border-radius: 8px;
+    border-left: 8px solid;
+
+    margin-bottom: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    /*border-left: 8px solid green;*/
+    box-shadow: 3px 4px 9px -3px rgba(0, 0, 0, 0.18);
+}
+
+.content-item {
+    flex: 1;
+    padding: 8px;
+}
+
+.overline {
+    font-size: 12px;
+    color: gray;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.descr {
+    font-size: 14px;
+    color: gray;
+}
+
+.options-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+body {
+    background-color: whitesmoke;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+.button-container {
+    position: absolute;
+    left: 500px;
+    top: 230px;
+}
+
+.button-container ul {
+    list-style-type: none;
+}
+.priority {
+    position: absolute;
+    left: 542px;
+    top: 200px;
+}
+#save-button:hover {
+    background-color: rgb(101, 101, 238);
+}
+#cancel-button:hover {
+    background-color: rgb(101, 101, 238);
+}
+#save-button {
+    border-color: cadetblue;
+}
+#cancel-button {
+    border-color: cadetblue;
+}
+.options-item {
+    display: flex;
+    flex-direction: column;
+}
